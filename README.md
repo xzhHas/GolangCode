@@ -11,14 +11,13 @@
     <a href="https://golangcode.cn/study-resource/" target="_blank"><img src="https://img.shields.io/badge/学习资料-快速下载-critical?style=for-the-badge"></a>
   <a href="https://github.com/xzhHas/GolangCode" target="_blank"><img alt="GolangCode" src="https://img.shields.io/github/stars/xzhHas/GolangCode?style=for-the-badge"></a><br><br>
 </div>
-
 ## 聊聊为什么做这个GolangCode网站
 
-::: tip
-一个人走得很快，但一群人能走得更远。
+> 我是一名普通的 Golang 后端开发者，热爱学习与分享。
 
-所以，找一群志同道合的人，一起去做一件有意义的事。
-:::
+**一个人走得很快，但一群人能走得更远。**
+
+**所以，找一群志同道合的人，一起去做一件有意义的事。**
 
 
 作为一名学生，虽然我的经验尚浅，但我希望通过记录自己的后端开发学习过程，分享成长中的点滴。相比在其他博客平台发布内容，我更倾向于在自己的网站上进行记录——毕竟作为软件开发者，拥有一个属于自己的网站，既能展示技术成果，也能让学习过程更加独特。这些笔记主要聚焦于 Golang 后端开发，未来希望能通过这些记录，不断整理和总结自己的技术积累，也希望能对正在学习的你有所帮助。
@@ -90,19 +89,10 @@ Golang后端开发的步骤推荐：先学习Go基础、MySQL基础、Redis基�
     <img src="https://cdn.golangcode.cn/images/202501172008379.jpg" width="150px">
     <img src="https://cdn.golangcode.cn/images/202501172008964.jpg" width="150px">
 </div>
-
-
 ## 参与贡献
 
 1. 如果你对本项目有任何建议或发现文中内容有误的，欢迎提交 issues 进行指正。
 2. 对于文中没有涉及到的知识点，也欢迎你们提交 PR，去补充更好的学习资料。
 3. 若作者未及时回复，可以发送邮件联系我：[xxhyti@163.com](mailto:xxhyti@163.com)。
 4. 致力于创建一个Golang技术分享的开源社区。
-
-
-## 联系作者
-
-> - 我是一名普通的 Golang 后端开发者，热爱学习与分享。
-
-我的邮箱：[xxhyti@163.com](mailto:xxhyti@163.com)。
 
