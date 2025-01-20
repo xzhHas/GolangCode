@@ -2,6 +2,7 @@
 title: 微信公众号
 shortTitle: 公众号
 date: 2025-01-18
+article: false
 ---
 
 专注于分享Golang后端开发的技术笔记，相关MySQL、Redis、计算机网络、操作系统、go项目实战以及一些相关课程的设计报告。

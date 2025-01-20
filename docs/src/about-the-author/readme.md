@@ -2,6 +2,7 @@
 title: 关于作者
 shortTitle: 关于作者
 date: 2025-01-18
+article: false
 ---
 
 :::tip

@@ -1,6 +1,7 @@
 ---
 title: Go语言推荐书籍
 shortTitle: 一、Go
+article: false
 ---
 
 

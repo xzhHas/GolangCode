@@ -1,6 +1,7 @@
 ---
 title: 数据结构与算法
 shortTitle: 六、数据结构与算法
+article: false
 ---
 
 

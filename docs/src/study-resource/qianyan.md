@@ -1,6 +1,7 @@
 ---
 title: 前言
 shortTitle: 前言
+article: false
 ---
 
 

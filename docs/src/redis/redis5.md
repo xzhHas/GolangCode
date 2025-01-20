@@ -5,7 +5,7 @@ category:
   - Redis
 tag:
   - Redis
-date: 2025-07-02
+date: 2024-07-02
 ---
 
 ## 1.跳表是什么？

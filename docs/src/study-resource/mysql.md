@@ -1,6 +1,7 @@
 ---
 title: 数据库推荐书籍
 shortTitle: 二、数据库
+article: false
 ---
 
 

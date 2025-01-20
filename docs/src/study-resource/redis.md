@@ -1,6 +1,7 @@
 ---
 title: Redis推荐书籍
 shortTitle: 三、Redis
+article: false
 ---
 
 
