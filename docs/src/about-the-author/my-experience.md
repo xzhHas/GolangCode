@@ -96,6 +96,8 @@ article: false
 
 CSDN上已有2k多名粉丝了，GitHub也积累了几个练手项目，虽然它们还不算特别优秀，但每一个都是我一步步走过的轨迹，见证了我的成长与进步。passion！
 
+- CSDN：[https://blog.csdn.net/m0_73337964?spm=1000.2115.3001.5343](https://blog.csdn.net/m0_73337964?spm=1000.2115.3001.5343)
+- GitHub：[https://github.com/xzhHas](https://github.com/xzhHas)
 
 <div align='left'>
 <img src="https://cdn.golangcode.cn/images/202501202136890.png" alt="image-20250120213548382" style="zoom:35%;" />
