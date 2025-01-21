@@ -9,7 +9,7 @@ actions:
   - text: 快速阅读
     link: /home.md
     type: primary
-  - text: Golangcode的编程星球
+  - text: Go语言面试指南
     link: /blog.md
     type: default
 footer: |-

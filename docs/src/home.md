@@ -1,14 +1,25 @@
 ---
-title: GolangCode
+title: Go语言面试指南
 isOriginal: true
 headerDepth: 1
-description: Go语言进阶之路，Go 语言学习交流网站
+description: Go语言学习网站，提供Golang面试指南、并发编程、实战项目以及MySQL、Redis相关技术
 head:
   - - meta
     - name: keywords
-      content: Go语言, Golang基础, 并发编程, Golang实战项目, 数据库, MySQL, Redis, 算法编程, 学习笔记, 面试题, 面试笔记, 知识星球, Golang路线
+      content: Go语言面试指南, Go并发编程, Go实战项目, MySQL, Redis, 面试笔记, 知识星球, Go语言学习路线
     - name: description
-      content: Go语言从小白到大师，Go语言学习交流网站，详细的Go语言学习路线，Golang实战项目，Golang学习笔记，Golang面试题
+      content: Go语言学习网站，提供Golang面试指南、并发编程、实战项目以及MySQL、Redis相关技术
+  - - script
+    - type: application/ld+json
+      content: |
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "name": "Go语言面试指南",
+          "url": "https://www.golangcode.cn",
+          "description": "Go语言面试指南，提供Go语言面试题、实战项目、并发编程等技术分享。",
+          "keywords": "Go, Golang, 面试指南, Redis, MySQL, 并发编程"
+        }
 ---
 
 ::: center
