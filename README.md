@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://golangcode.cn">
-    <img src="https://cdn.golangcode.cn/images/202501172033936.png" width="200px" alt="GolangCode">
+    <img src="/img/logo.png" width="200px" alt="GolangCode">
   </a><br>
 </p>
 
@@ -42,7 +42,7 @@
 如果你更喜欢离线版的 PDF 版本，可以先关注我的公众号 **GolangCode** ，后续会发布 PDF 版本。（等内容更新差不多了，就会发布PDF版） 
 
 <div style="text-align: center;">
-    <img src="https://cdn.golangcode.cn/images/202501171944968.png" alt="GolangCode" /> 
+    <img src="/img/vx258.png" alt="GolangCode" /> 
 </div>
 
 ## 站点阅读导航
@@ -87,8 +87,8 @@ Golang后端开发的步骤推荐：先学习Go基础、MySQL基础、Redis基�
 创作不易，如果相关文章项目以及课程设计报告对你有些帮助，可以给作者一些鼓励，后续将全部用作服务器维护费用。🧡
 
 <div align="left">
-    <img src="https://cdn.golangcode.cn/images/202501172008379.jpg" width="150px">
-    <img src="https://cdn.golangcode.cn/images/202501172008964.jpg" width="150px">
+    <img src="/img/vxpad.jpg" width="150px">
+    <img src="/img/zhifubaopad.jpg" width="150px">
 </div>
 
 ## 参与贡献
