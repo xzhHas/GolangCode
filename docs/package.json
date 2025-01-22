@@ -18,5 +18,10 @@
     "vue": "^3.4.31",
     "vuepress": "2.0.0-rc.14",
     "vuepress-theme-hope": "2.0.0-rc.52"
+  },
+  "dependencies": {
+    "@vuepress/plugin-search": "^1.9.10",
+    "@vuepress/plugin-slimsearch": "2.0.0-rc.61",
+    "vuepress-plugin-fulltext-search": "^2.2.1"
   }
 }
