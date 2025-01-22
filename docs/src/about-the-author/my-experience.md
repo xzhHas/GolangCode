@@ -11,9 +11,6 @@ article: false
 
 初入大学，面对一切既新鲜又陌生。
 
-之后就和几个室友一起出去吃饭，聊了很多。
-
-
 <div align='left'>
     <img src="https://cdn.golangcode.cn/images/202501202046922.png" alt="image-20250120204549221" style="zoom: 10%;" />
 </div>

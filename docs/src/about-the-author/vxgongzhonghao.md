@@ -14,7 +14,7 @@ article: false
 - [5.计算机网络](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzkwNjcxMTA1OA==&action=getalbum&album_id=3817204414093852673#wechat_redirect)：网络体系结构、应用层、传输层、网络层、TCP可靠传输、http、拥塞控制、流量控制、网络编程。
 - [6.课程设计报告](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzkwNjcxMTA1OA==&action=getalbum&album_id=3801125461258780679#wechat_redirect)：深度学习、数据库、计算机视觉、数据结构与算法、图像分类、数据分析等。
 
-微信搜 **GolangCode** 或扫描下方二维码关注golangcode的公众号，可以第一时间收到文章的更新以及相关的课程设计报告内容。
+微信搜 **GolangCode** 或扫描下方二维码关注golangcode的公众号，可以第一时间收到最新的内容。
 
 后续会将面试题以及学习笔记整合成PDF文件发布。🔥
 
