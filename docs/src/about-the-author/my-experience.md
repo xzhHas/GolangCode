@@ -11,22 +11,11 @@ article: false
 
 初入大学，面对一切既新鲜又陌生。
 
-<div align='left'>
-    <img src="https://cdn.golangcode.cn/images/202501202046922.png" alt="image-20250120204549221" style="zoom: 10%;" />
-</div>
-
 大一，在一些学长的推荐和帮助下，也是加入了仁爱社团。
 
 
 <div align='left'>
 <img src="https://cdn.golangcode.cn/images/202501202055554.png" alt="image-20250120205438260" style="zoom:15%;" />
-</div>
-
-在偷偷卷，被朋友偷拍了。📣
-
-
-<div align='left'>
-<img src="https://cdn.golangcode.cn/images/202501202102411.png" alt="image-20250120210246375" style="zoom:15%;" />
 </div>
 
 节假日的时候也和几个朋友一起出去跑跑玩。

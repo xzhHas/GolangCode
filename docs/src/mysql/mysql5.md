@@ -1,6 +1,6 @@
 ﻿---
 title: MySQL中GROUP BY后不允许SELECT中显示未聚合的列
-shortTitle: 10.MySQL中GROUP BY后不允许SELECT中显示未聚合的列
+shortTitle: 10.遇到的GROUP BY错误
 category:
   - MySQL
 tag:
