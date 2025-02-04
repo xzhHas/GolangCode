@@ -9,8 +9,8 @@ actions:
   - text: 快速阅读
     link: /home.md
     type: primary
-  - text: Go语言面试指南
-    link: /blog.md
+  - text: 编程语言学习路线
+    link: /study-resource/road/one.md
     type: default
 footer: |-
   <a href="https://beian.miit.gov.cn/" target="_blank">豫ICP备2024081365号-3</a> | 主题: <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a>
@@ -23,7 +23,8 @@ footer: |-
 - [📚学习资料](/study-resource/)：收集一些学习后端开发需要看的优秀书籍，推荐阅读《Go语言圣经》《Go Web编程》《MySQL必知必会》《Redis设计与实现》《Go微服务实践》等等。
 - [👏🏽Go实战项目](https://github.com/xzhHas) ：一款简短而又精悍的短链项目，实现雪花算法以及MySQL+Redis+布隆过滤器的优化；一个基于grpc实现的微服务电商系统，使用nacos、服务注册等微服务技术；一个基于Golang+Vue实现的博客系统，实现在线评论点赞等功能等等。🚀
 
-## 公众号
+
+## 微信公众号
 
 专注于分享Golang后端开发的技术笔记，相关MySQL、Redis、计算机网络、操作系统、go项目实战以及一些相关课程的设计报告。
 
