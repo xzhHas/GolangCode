@@ -22,6 +22,7 @@
   "dependencies": {
     "@vuepress/plugin-search": "^1.9.10",
     "@vuepress/plugin-slimsearch": "2.0.0-rc.61",
-    "vuepress-plugin-fulltext-search": "^2.2.1"
+    "vuepress-plugin-fulltext-search": "^2.2.1",
+    "vuepress-plugin-readmore-popular-next": "2.0.0-rc.18.1"
   }
 }
