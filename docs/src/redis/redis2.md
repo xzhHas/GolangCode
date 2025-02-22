@@ -29,9 +29,7 @@ List作为一个列表存储，属于比较底层的数据结构，比如存储�
 
 1、LPUSH从左侧插入，RPSH从右侧插入
 
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071631688.png" alt="在这里插入图片描述" style="zoom:50%;" />
 
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071631858.png" alt="在这里插入图片描述" style="zoom:50%;" />
 
 
 2、LPOP移出并获取列表的第一个元素；RPOP移出并获取列表最后一个元素
@@ -61,11 +59,11 @@ ZIPLIST使用条件：
 1. 列表对象保存的所有字符串对象长度都小于64字节。
 2. 列表对象元素个数少于512个。
 
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071631625.png" alt="在这里插入图片描述" style="zoom:80%;" />
+
 
 LinkedList：
 
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071631513.png" alt="在这里插入图片描述" style="zoom:67%;" />
+
 
 ZIPLIST和LInkedList相比，ZIPLIST内存更加紧凑，所以只有在列表个数或节点数据比较大的时候，才会使用到LINKEDLIST编码。
 
@@ -73,7 +71,7 @@ ZIPLIST和LInkedList相比，ZIPLIST内存更加紧凑，所以只有在列表�
 
 后来，引入了**QUICKLIST**，其实就是ZIPLIST和LInkedLIST的结合体。
 
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071631577.png" alt="在这里插入图片描述" style="zoom:67%;" />
+
 
 原来LInkedList是单个节点，只能存一个数据，现在单个节点存的是一个ZIPLIST，即多个数据。
 
@@ -110,7 +108,7 @@ entry-data：实际的数据。
 
 比如增加一个头部新节点，后面依赖它的节点，需要prevlen记录它的大小，原本只用1字节记录，因为更新可能膨胀为5字节，然后这个entry的大小就也膨胀了。所以，当这个新数据插入导致的后移完成之后，还需要逐步迭代更新。
 
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071632700.png" alt="在这里插入图片描述" style="zoom:67%;" />
+
 
 ### 3.LISTPACK优化
 

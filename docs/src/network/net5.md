@@ -10,7 +10,6 @@ tag:
 
 ## 1、Socket编程对应TCP三次握手连接
 
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071555549.png" alt="image-20241109171133937" style="zoom:67%;" />
 
 Socket编程中connect、bin、listen、accept函数的作用。
 
@@ -26,7 +25,7 @@ Socket编程中connect、bin、listen、accept函数的作用。
 
 ## 2、建立TCP连接，Socket在TCP握手那个阶段可以拿到连接？
 
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071555058.png" alt="image-20241109172841231" style="zoom:50%;" />
+
 
 需要完成三次握手后，服务端才能通过accept函数得到已建立TCP连接的Socket。
 

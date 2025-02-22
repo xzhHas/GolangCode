@@ -186,7 +186,7 @@ CLOSE_WAIT状态是被动关闭方才会有的状态，而且如果被动关闭�
 
 **解密三次握手四次挥手**
 
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071556791.png" alt="image-20241024135031366" style="zoom:67%;" />
+
 
 
 

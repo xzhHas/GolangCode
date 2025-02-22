@@ -25,7 +25,7 @@ HSET key field value [field value ...]
 
 ![[图片]](https://cdn.golangcode.cn/images/202501182115584.png)
 
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071637540.png" alt="[图片]" style="zoom:50%;" />
+
 
 2、HSETNX，如果field不存在，则为集合对应设置value数据。如果存在则不设置。
 

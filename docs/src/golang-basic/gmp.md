@@ -22,7 +22,6 @@ order: -6
 
 ## 1.GMP的设计思想
 
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071538207.png" alt="在这里插入图片描述" style="zoom: 50%;" />
 
 ### 1.1 go func(){} 调度流程
 
@@ -93,11 +92,11 @@ runtime.g的atomicstatus字段存储了当前G的状态：
 
 以下是主要的六种状态：
 
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071539785.png" alt="在这里插入图片描述" style="zoom: 67%;" />
+
 
 ### M的数据结构
 
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071539333.png" alt="在这里插入图片描述" style="zoom:80%;" />
+
 
 
 M的字段众多，其重要的有：
@@ -118,7 +117,6 @@ lockedg：表示当前与M锁定的那个G，运行时系统会将M和G锁定，
 
 ### P的数据结构
 
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071539201.png" alt="在这里插入图片描述" style="zoom:67%;" />
 
 
 最主要的数据结构：
@@ -135,7 +133,6 @@ gFree存储P本地的状态为_Gdeed的空闲的G，可重新初始化；
 
 ### schedt的数据结构
 
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071539187.png" alt="在这里插入图片描述" style="zoom: 67%;" />
 
 
 除了这些结构体，也有一些全局变量：

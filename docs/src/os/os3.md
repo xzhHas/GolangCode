@@ -21,7 +21,7 @@ cache是主存里数据的副本。cache的写策略，又分为两种：
 
 #### 1.写直达
 
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071602166.png" alt="image-20241111211311765" style="zoom:67%;" />
+
 
 - 如果数据已经在Cache里，就更新到Cache Block，再写到内存里；
 - 否则的话就把直接更新到内存中，读的时候直接读取内存；

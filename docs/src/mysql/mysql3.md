@@ -10,7 +10,7 @@ date: 2024-06-07
 
 ## 1.逻辑架构
 ### 1.1 一条SQL语句是怎么执行的呢？
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071642316.png" alt="img" style="zoom:67%;" />
+
 
 首先，MySQL的连接器会负责建立连接、校验用户身份、接收客户端的SQL语句；之后MySQL会在查询缓存中查找数据，但是在8.0版本移除了；其次MySQL的解析器会对SQL语句进行词法分析和语法分析，然后构建语法树，方便后续模块读取表名、字段、语句类型；然后MySQL的优化器会基于查询成本的考虑，判断每个索引的执行成本，从中选择成本最小的执行计划；最后MySQL的执行器执行查询语句，从存储引擎读取记录，返回个客户端。
 ### 1.2 MySQL存储引擎有哪些？
@@ -24,7 +24,6 @@ InnoDB引擎B+树叶子节点存储的是索引和数据，但是MyIsam存储的
 ## 2.MySQL一行记录是怎么存储的？
 表空间由段、区、页、行组成。
 
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071642264.png" alt="img" style="zoom:67%;" />
 
 ### 2.1 NULL值是如何存储的？
 <img src="https://cdn.golangcode.cn/images/202501182051967.png" alt="img" style="zoom:67%;" />
@@ -51,7 +50,7 @@ varchar是可变长的字符串类型，实际存储只占用实际字符串长�
 
 > 聚簇索引和非聚簇索引的B+树有什么区别？
 
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071643444.png" alt="img" style="zoom:67%;" />
+
 
 聚簇索引和非聚簇索引最主要的区别就是B+树叶子节点存放的内容不同：
 - 聚簇索引的B+树的叶子节点存放的是主键值和完整的记录；
@@ -65,11 +64,10 @@ Buffer Pool就是MySQL为了提高查询性能的一个缓冲池，位于存储�
 
 InnoDB会为Buffer Pool申请一片连续的内存空间，然后按照默认的16kb的大小划分出一个个页，Buffer Pool中的页叫做缓存页。
 
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071643360.png" alt="img" style="zoom:67%;" />
+
 
 为了管理这些缓存页，InnoDB为每一个缓存都创建了一个控制块，这些控制块包括【缓存页的表空间、页号、缓存页地址、链表节点】等。
 
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071643452.png" alt="img" style="zoom:67%;" />
 
 #### 4.2.2 空闲页？
 Buffer Pool是一片连续的内存空间，但是在MySQL运行一段时间后，肯定有空闲的也有被使用的。那么这些空闲页怎么办？

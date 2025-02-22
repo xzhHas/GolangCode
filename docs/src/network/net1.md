@@ -20,7 +20,7 @@ tag:
 
 ### 2、TCP/IP网络模型
 
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071555714.png" alt="image-20241002203936466" style="zoom:67%;" />
+
 
 
 
@@ -53,7 +53,7 @@ TCP/IP网络模型有四层，分别是应用层、传输层、网络层、网�
 
 ### 6、IP协议和TCP协议属于那一层？
 
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071555247.png" alt="image-20241005130034806" style="zoom: 67%;" />
+
 
 IP协议属于网络层，TCP协议属于传输层。
 

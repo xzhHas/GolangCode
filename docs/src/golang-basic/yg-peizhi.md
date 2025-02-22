@@ -72,7 +72,6 @@ date: 2024-05-02
 
    如果Docker正在运行，你会看到类似以下的输出：
 
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071534879.png" alt="在这里插入图片描述" style="zoom:50%;" />
 
 
 9. **将当前用户添加到docker用户组**（可选，方便以后无需使用sudo运行docker命令）：
@@ -102,7 +101,7 @@ date: 2024-05-02
     ```
 
 出现以下界面表示docker安装成功：
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071534623.png" alt="在这里插入图片描述" style="zoom:50%;" />
+
 
 ## 二、安装Redis，并使用resp验证连接
 
@@ -130,7 +129,7 @@ date: 2024-05-02
 
 
 4. **连接到Redis容器**：使用resp连接
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071534672.png" alt="在这里插入图片描述" style="zoom: 50%;" />
+
 
 ## 三、安装Mysql8.0，搭建逻辑卷，链接navicate以及导入sql的数据（sql文件在docs里面）
 
@@ -165,7 +164,7 @@ date: 2024-05-02
    - 将MySQL数据存储在Docker卷 `mysql-data` 中。
 
 使用docker成功安装之后使用navicate连接并且导入sql文件：
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071534531.png" alt="在这里插入图片描述" style="zoom:50%;" />
+
 导入数据：（这些sql文件都会上传到GitHub去，直接获取就可以了），如果想使用apifox测试接口的话，可以直接使用mallshop.json直接导入到apifox中即可测试接口了，也可以查看我已经导出来的mallshop文档。
 <img src="https://cdn.golangcode.cn/images/202501181839926.png" alt="在这里插入图片描述" style="zoom:50%;" />
 
@@ -199,7 +198,6 @@ docker run -d -p 8500:8500 -p 8300:8300 -p 8301:8301 -p 8302:8302 -p 8600:8600/u
 
 8600端口是dns的端口，8500是http的端口：注册与服务发现都是通过8500端口
 
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071534740.png" alt="在这里插入图片描述" style="zoom:50%;" />
 
 我们可以看到所有的服务都已经启动了，这个需要启动后端，一开始配置好Consul就行了，后期在看这个（如果搞注册中心的时候遇到问题都可以向我反馈，我也遇到了许多的问题）。
 
@@ -258,7 +256,7 @@ sudo systemctl restart docker
    **访问Elasticsearch**：
 
    打开浏览器，访问 `http://localhost:9200`，应该能看到Elasticsearch的欢迎信息。（这里输入你自己的IP地址）
-   <img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071534603.png" alt="在这里插入图片描述" style="zoom: 33%;" />
+
 
 #### 二、安装Kibana
 
@@ -282,7 +280,7 @@ sudo systemctl restart docker
 **访问Kibana**：
 
    打开浏览器，访问 `http://192.168.124.51:5601`（用你的实际IP地址替换），应该能看到Kibana的界面。
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071534826.png" alt="在这里插入图片描述" style="zoom: 33%;" />
+
 
 #### 三、安装IK分词器
 
@@ -296,7 +294,7 @@ IK官方地址：https://github.com/medcl/elasticsearch-analysis-ik/releases
 大功告成！
 
 ## 最后我们可以看到docker运行的容器
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071534693.png" alt="在这里插入图片描述" style="zoom:33%;" />
+
 
 
 ----------------

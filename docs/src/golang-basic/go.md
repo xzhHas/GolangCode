@@ -107,7 +107,6 @@ func main() {
 - 定义的局部变量或者导入的包没有被使用, 那么编译器会报错,无法编译运行
 - 但是定义的常量没有被使用,编译器不会报错, 可以编译运行
 
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071435201.png" alt="image.png"  />
 
 ```go
 package main
@@ -521,7 +520,7 @@ func abc() int {
 
 - 在实际开发中我们可能事先不能确定数组的长度, 为了解决这类问题Go语言中推出了一种新的数据类型切片。
 - 切片可以简单的理解为长度可以变化的数组, 但是Go语言中的切片本质上是一个结构体。
-- <img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071435029.png" alt="image.png"  />
+
 
 **切片的使用**
 

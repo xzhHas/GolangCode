@@ -46,7 +46,6 @@ typedef struct dict {
 
 RedisDB即数据库对象，字典里主要是kv数据，k是字符串，v是任意Redis对象。即以下结构：
 
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071635189.png" alt="[图片]" style="zoom:67%;" />
 
 1、添加数据。key必须为String对象，value可以是任何类型的对象。
 2、查询数据。在dict找到对应key查询。

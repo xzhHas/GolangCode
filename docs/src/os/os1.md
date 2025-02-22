@@ -12,7 +12,7 @@ tag:
 
 ### 1、为什么计算机要给储存结构分级？
 
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071603742.png" alt="image-20241112193052583" style="zoom:50%;" />
+
 
 不同级别的储存结构具有不同的访问速度，CPU访问CPU Cache的延时只需要几纳秒，访问物理内存的延时则100纳秒，速度相差100倍，访问磁盘延时就更高了，已经到毫秒级，但是访问速度越快的存储器，造价成本就越高，容量也小很多。
 
@@ -24,7 +24,7 @@ tag:
 
 差距不大，都是纳秒级别，CPU访问L1 Cache大概延时是1-2纳秒，访问L2 Cache大概延时5-10纳秒，访问L3 Cache大概延时10-30纳秒。
 
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071603878.png" alt="image-20241112193740312" style="zoom:50%;" />
+
 
 ## 内核态
 

@@ -22,15 +22,12 @@ Redis的Set是一个不重复、无序的字符串集合。
 
 1、SADD，添加元素，返回成功添加了几个元素。
 
-![[图片]](https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071638067.png)
 
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071638630.png" alt="[图片]" style="zoom: 50%;" />
+
 
 2、SREM，删除元素，返回值为成功删除了几个元素。
 
-![[图片]](https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071638608.png)
 
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071638963.png" alt="[图片]" style="zoom:50%;" />
 
 #### 2.读操作
 
@@ -54,11 +51,11 @@ INSET编码
 如果集合元素都是整数，且元素数量不超过512个，就可以用INTSET编码。INTSET编码排列比较紧凑，内存占用少，但是查询
 时需要二分查找（INSET下是有序的）。
 
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071638575.png" alt="[图片]" style="zoom:80%;" />
+
 
 HASHTABLE
 如果不满足INTSET的条件，就需要用HASHTABLE。
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071638894.png" alt="[图片]" style="zoom: 80%;" />
+
 
 ## 5.总结（重点）
 

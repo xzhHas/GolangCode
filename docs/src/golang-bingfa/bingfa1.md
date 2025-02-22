@@ -40,7 +40,6 @@ star: true
 
 简单理解一下串行、并行、并发的运行情况。
 
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071511992.jpeg" alt="在这里插入图片描述" style="zoom:67%;" />
 
 
 #### 1.1.2、进程、线程、协程
@@ -181,7 +180,6 @@ func main() {
 
 ```
 
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071511192.jpeg" alt="在这里插入图片描述" style="zoom:50%;" />
 
 
 **4.Goexit的使用（终止协程）**
@@ -317,7 +315,7 @@ func saleTickets(name string) {
 
 > 运行结果
 >
-> <img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071511933.jpeg" alt="在这里插入图片描述" style="zoom: 50%;" />
+
 
 
 可见，成功解决这个问题了。

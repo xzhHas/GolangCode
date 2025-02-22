@@ -14,7 +14,6 @@ date: 2024-07-02
 
 **跳表的结构**
 
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071635494.png" alt="[图片]" style="zoom:67%;" />
 
 标准的跳表（Redis不是使用标准的跳表）有以下限制：
 1. score值不能重复；
@@ -76,9 +75,7 @@ ZSET就是有序集合，也叫SORTED SET，是一组按关联积分有序的字
 - LT：更新新的分值比当前分值小的成员，不存在则新增。
 - GT：更新新的分值比当前分值大的成员，不存在则新增。
 
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071636230.png" alt="[图片]" style="zoom: 80%;" />
 
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071636880.png" alt="[图片]" style="zoom:50%;" />
 
 2、ZREM key member[member ...] ，删除ZSET中的元素。
 2.读操作
@@ -89,9 +86,7 @@ ZSET就是有序集合，也叫SORTED SET，是一组按关联积分有序的字
 5、ZRANK key member，查看ZSET中的member的排名索引。
 6、ZSCORE key member，查询ZSET中成员的分数。
 
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071636089.png" alt="[图片]" style="zoom:80%;" />
 
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071636592.png" alt="[图片]" style="zoom:67%;" />
 
 ## 4.底层实现
 ZSET编码有两种方式，一种是ZIPLIST，另一种是SKIPLIST+HASHTABLE。
@@ -104,5 +99,4 @@ ZIPLIST编码的使用条件：
 
 SKIPLIST是一种可以快速查找的多级链表结构。并且还使用HASHTABLE来配合查询O(1)。
 
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071636702.png" alt="[图片]" style="zoom:67%;" />
 

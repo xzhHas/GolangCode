@@ -39,13 +39,13 @@ hash表的原理是将多个kv键值对散列的存储到buckets中，buckets是
 
 拉链法是一种常见的解决哈希冲突的方法，拉链法主要实现是底层不直接使用连续数组来直接存储数据元素，而是通过数组和链表组合使用，数组里存储一个指针，指向一个链表。如果链表过长，也可以使用优化策略，比如用红黑树代替链表。
 
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071537835.png" alt="在这里插入图片描述" style="zoom:80%;" />
+
 
 ### 1.3 开放寻址法
 
 开发地址法与拉链法不同，开发地址法是将具体的数据元素存储在数组桶中，在要插入新元素是，先根据哈希函数算出哈希值，根据哈希值计算索引，如果发现冲突了，就从计算出的索引位置向后探测，直到找到未使用的数据槽为止。
 
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071537150.png" alt="在这里插入图片描述" style="zoom:80%;" />
+
 
 ## 2.map的底层实现原理？
 
@@ -89,7 +89,7 @@ type bmap struct {
 为什么呢？这主要与map的类型有关，如果map的kv是值类型，那么就不用考虑GC扫描，如果是指针类型或着是需要GC扫描的类型，都需要放在extra里面，防止被扫描。
 
 **具体的map底层原理图：**
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071537024.png" alt="在这里插入图片描述" style="zoom:80%;" />
+
 
 对于map查找kv键值对的时候，我是这样理解的：**map 底层是一个 hmap 结构，hmap 包含一个 buckets 指针，它指向一个由多个 bmap 组成的数组。哈希值的低 B 位决定使用哪个 bmap，然后根据高位哈希值在该 bmap 内查找具体的键值对。**
 
@@ -156,11 +156,11 @@ map的扩容不是一个原子操作，所以需要!h.growing()判断一下当�
 
 **等量扩容**
 
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071537734.png" alt="在这里插入图片描述" style="zoom:80%;" />
+
 
 **双倍扩容**
 
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071537560.png" alt="在这里插入图片描述" style="zoom:80%;" />
+
 需要注意的是，Go语言对map进行扩容的时候，并不是一次性将map的所有数据从旧的桶复制到新的桶，而是在map进行插入、修改、删除key的时候，才会进行迁移。因为map不是线程安全的，所以不能并发读写，只能在写的时候进行数据迁移。
 
 在扩容过程中，要用到hashGrow和growWork两个函数。hashGrow函数只是分配新的buckets，并将老的buckets挂到oldbuckets字段上；growWork函数是进行实际的数据迁移。

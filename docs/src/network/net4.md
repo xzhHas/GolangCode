@@ -68,7 +68,7 @@ MAC地址用于在局域网中唯一标识和定位设备，它是在数据链�
 
 ## 8、NAT是什么协议？
 
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071556807.png" alt="image-20241105105822396" style="zoom:67%;" />
+
 
 NAT协议在网络层工作，会将私有IP地址转换为公网IP地址，这样就可以实现局域网的设备与互联网其他设备的通信。
 
@@ -76,7 +76,7 @@ NAT协议比较常见的转换操作是端口转换，多个私有IP地址可以
 
 ## 9、192.168.1.100/24中的斜杠是什么意思？
 
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071556146.png" alt="image-20241105111759684" style="zoom:67%;" />
+
 
 斜杠后边的数字表示子网掩码的位数。
 

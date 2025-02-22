@@ -22,7 +22,7 @@ DNS污染是一种让一般用户由于得到虚假目标主机IP而不能与其
 
 其工作方式是：由于通常的DNS查询没有任何认真机制，而且DNS查询通常基于的UDP是无连接不可靠的协议，因此DNS的查询非常容易被篡改，通过对UDP端口53上的DNS查询进行入侵检测，一经发现与关键词相匹配的请求则立即伪装成目标域名的解析服务器给查询者返回虚假的结果。
 
-<img src="https://golang-code.oss-cn-beijing.aliyuncs.com/images/202501071555728.png" alt="image-20241106211049168" style="zoom:50%;" />
+
 
 DNS污染症状：目前一些在被禁止访问的网站基本都是通过DNS污染来实现的，例如youTuBe、Facebook等。
 
