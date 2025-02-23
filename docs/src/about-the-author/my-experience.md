@@ -33,35 +33,9 @@ article: false
 
 但是，我知道只学习学校教的是远远不够的，所以在学长的帮助下，我也开始主攻后端开发方向。
 
-
-<div align='left'>
-<img src="https://cdn.golangcode.cn/images/202501202112100.png" alt="image-20250120211159492" style="zoom:25%;" />
-</div>
-
 同时，在学长学姐的信任和支持下，也是做了社团的负责人之一，也进行了招新活动。
 
-
-<div align='left'>
-<img src="https://cdn.golangcode.cn/images/202501202115693.png" alt="image-20250120211511532" style="zoom:15%;" />
-</div>
-
-也带着社团进行了聚餐。
-
-
-<div align='left'>
-<img src="https://cdn.golangcode.cn/images/202501202124709.png" alt="image-20250120212346670" style="zoom:10%;" />
-</div>
-
-放假前夕，我留校期间也替团队去领了个奖状。
-
-
-<div align='left'>
-<img src="https://cdn.golangcode.cn/images/202501202124638.png" alt="image-20250120212411919" style="zoom:25%;" />
-</div>
-
-
 大二下学期，也参加了蓝桥杯、睿抗CAIP等的算法编程赛，也拿了一些省级的奖状。（水了一些奖状，主要是可以换奖学金。狗头..）
-
 
 <div align='left'>
 <img src="https://cdn.golangcode.cn/images/202501202207520.png" alt="image-20250120220709516" style="zoom:20%;" />
