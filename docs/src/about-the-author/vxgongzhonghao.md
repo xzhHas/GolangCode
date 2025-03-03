@@ -21,4 +21,3 @@ article: false
 <div style="text-align: center;">
     <img src="https://cdn.golangcode.cn/images/202501171944968.png" alt="GolangCode" /> 
 </div>
-

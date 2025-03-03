@@ -109,7 +109,7 @@ Golang后端开发的步骤推荐：先学习Go基础、MySQL基础、Redis基�
 
 ## 联系作者
 
-> 我是一名普通的 Golang 后端开发者，热爱学习与分享。
+> 我是一名 Golang 后端开发者，热爱学习与分享。
 
 
 - 关于作者：[个人介绍 XZH](about-the-author/readme.md)

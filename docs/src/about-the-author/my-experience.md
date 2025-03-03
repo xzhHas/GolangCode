@@ -9,29 +9,25 @@ article: false
 
 ## 大一
 
-初入大学，面对一切既新鲜又陌生。
-
-大一，在一些学长的推荐和帮助下，也是加入了仁爱社团。
-
+大一，在学长的推荐和帮助下，也是加入了仁爱社团。
 
 <div align='left'>
-<img src="https://cdn.golangcode.cn/images/202501202055554.png" alt="image-20250120205438260" style="zoom:15%;" />
+<img src="https://cdn.golangcode.cn/images/202501202055554.png" alt="image-20250120205438260" />
 </div>
 
-节假日的时候也和几个朋友一起出去跑跑玩。
 
+对陌生的东西充满好奇0.0~
 
 <div align='left'>
-<img src="https://cdn.golangcode.cn/images/202501202105656.png" alt="image-20250120210521212" style="zoom:15%;" />
+<img src="https://cdn.golangcode.cn/images/202501202105656.png" alt="image-20250120210521212" />
 </div>
+
 
 这一年认识了很多朋友，去到了很多地方，做了很多自己想做的事情。
 
 ## 大二
 
-随着大一一学期的基础课程学习，计算机相关的能力也是有所提高。
-
-但是，我知道只学习学校教的是远远不够的，所以在学长的帮助下，我也开始主攻后端开发方向。
+随着大一一学期的基础课程学习，计算机相关的能力也是有所提高。但是，我知道只学习学校教的是远远不够的，所以在学长的帮助下，我也开始主攻后端开发方向。
 
 同时，在学长学姐的信任和支持下，也是做了社团的负责人之一，也进行了招新活动。
 
@@ -41,43 +37,37 @@ article: false
 <img src="https://cdn.golangcode.cn/images/202501202207520.png" alt="image-20250120220709516" style="zoom:20%;" />
 </div>
 
+
 也去做了志愿者，收获满满。
 
-
 <div align='left'>
-<img src="https://cdn.golangcode.cn/images/202501202130054.png" alt="image-20250120213002691" style="zoom:12%;" />
+<img src="https://cdn.golangcode.cn/images/202501202130054.png" alt="image-20250120213002691"  />
 </div>
+
 
 ## 大三
 
-大二到大三的期间内，主要就是自我的沉淀。
+大二到大三的期间内，主要就是自我的沉淀。学习相关的专业知识，以及背诵八股面经，同时也喜欢写一写自己的博客笔记。
 
-学习相关的专业知识，以及背诵八股面经，同时也喜欢写一写自己的博客笔记。
-
-CSDN上已有2k多名粉丝了，GitHub也积累了几个练手项目，虽然它们还不算特别优秀，但每一个都是我一步步走过的轨迹，见证了我的成长与进步。passion！
+CSDN上已有2k多名粉丝了，GitHub也积累了几个练手项目，虽然它们还不算特别优秀，但每一个都是我一步步走过的轨迹，见证了我的成长与进步。**passion！**
 
 - CSDN：[https://blog.csdn.net/m0_73337964?spm=1000.2115.3001.5343](https://blog.csdn.net/m0_73337964?spm=1000.2115.3001.5343)
 - GitHub：[https://github.com/xzhHas](https://github.com/xzhHas)
 
 <div align='left'>
-<img src="https://cdn.golangcode.cn/images/202501202136890.png" alt="image-20250120213548382" style="zoom:35%;" />
+<img src="https://cdn.golangcode.cn/images/202501202136890.png" alt="image-20250120213548382"  />
 </div>
 
 
 
-<div>
-    <img src="https://cdn.golangcode.cn/images/202501202137243.png" alt="image-20250120213722705" style="zoom:33%;" />
-</div>
 
 在写博客的同时，我也打算将这部分内容，以自己的网站形式发布，至此GolangCode出现了。
 
-
-<img src="https://cdn.golangcode.cn/images/202501202209031.png" alt="image-20250120220927307" style="zoom:50%;" />
+<img src="https://cdn.golangcode.cn/images/202501202209031.png" alt="image-20250120220927307"  />
 
 接下来，脚踏实地，夯实自己的专业知识，争取年后能找到一份理想的实习机会。路还很长，生活依旧前行。
 
-
-<img src="https://cdn.golangcode.cn/images/202501202210478.png" alt="image-20250120221007370" style="zoom:25%;" />
+<img src="https://cdn.golangcode.cn/images/202501202210478.png" alt="image-20250120221007370"  />
 
 星光不负赶路人。继续努力。
 

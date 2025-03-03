@@ -42,10 +42,6 @@ background: rgba(253, 230, 138, 0.15)
 
 [https://github.com/xzhHas/ginblog-wanli](https://github.com/xzhHas/ginblog-wanli)
 
-✍️ 基于Golang开发的数据结构库（碎片）
-
-[https://github.com/xzhHas/shard](https://github.com/xzhHas/shard)
-
 🍻 基于Golang和Vue搭建的基于微服务一个前后端分离的校园易购电商系统（源码已放到仓库）
 
 [https://github.com/xzhHas/yg](https://github.com/xzhHas/yg)
